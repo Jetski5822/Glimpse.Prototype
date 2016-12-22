@@ -21,11 +21,11 @@
           "type": "platform"
         }
       },
-        "imports": [
-          "dotnet5.6",
-          "portable-net45+win8"
-        ]
-      }
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
   },
   "buildOptions": {
     "emitEntryPoint": true,
