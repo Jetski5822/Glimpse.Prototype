@@ -104,7 +104,7 @@ namespace Glimpse.FunctionalTest
           var payload = new Dictionary<string, object>()
                {
                     {"id", message.Id },
-                    { "payload", data},
+                    {"payload", data},
                     {"ordinal", message.Ordinal},
                     {"context", message.Context},
                     {"types", message.Types}
