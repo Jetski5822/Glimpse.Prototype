@@ -3,8 +3,6 @@
     "warningsAsErrors": true
   },
   "dependencies": {
-    "dotnet-test-xunit": "2.2.0-*",
-    "Microsoft.AspNetCore.TestHost": "1.1.0",
     "Moq": "4.6.38-alpha",
     //"Glimpse.FunctionalTest.Website": "1.0.0-*",
     "xunit": "2.2.0-*"
@@ -19,10 +17,10 @@
         }
       },
       "imports": "dotnet5.4",
-        "System.Diagnostics.TraceSource": "4.0.0"
-      }
-    },
-    "net451": {
-      "dependencies": {}
+      "System.Diagnostics.TraceSource": "4.0.0"
     }
+  },
+  "net451": {
+    "dependencies": {}
   }
+}

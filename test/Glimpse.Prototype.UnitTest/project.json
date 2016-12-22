@@ -3,9 +3,7 @@
     "warningsAsErrors": true
   },
   "dependencies": {
-    "dotnet-test-xunit": "2.2.0-*",
     "Glimpse.Server": "2.0.0-*",
-    //"Moq": "4.6.25-*",
     "xunit": "2.2.0-*"
   },
   "testRunner": "xunit",
@@ -18,9 +16,7 @@
         },
         "System.Diagnostics.TraceSource": "4.3.0"
       }
-
     },
-
     "net451": {
       "dependencies": {}
     }
